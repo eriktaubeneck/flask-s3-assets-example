@@ -1,0 +1,1 @@
+Test Flask app for building flask-s3-assets
