@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  {% assets "js_all" %}
+    <script type="text/javascript" scr="{{ASSET_URL}}"></script>
+  {% endassets %}
+</head>
+
+<h1> Why not Zoidberg? </h1>
+
+{% for i in range(3) %}
+
+<img src="{{ url_for('static', filename='images/zoidberg.png') }}">
+
+{% endfor %}
+
+</html>
