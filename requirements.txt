@@ -1,0 +1,11 @@
+Flask==0.9
+Flask-Assets==0.8
+Flask-S3==0.1.4
+Jinja2==2.7
+MarkupSafe==0.18
+Werkzeug==0.8.3
+boto==2.9.5
+gunicorn==0.17.4
+mock==1.0.1
+webassets==0.8
+wsgiref==0.1.2
