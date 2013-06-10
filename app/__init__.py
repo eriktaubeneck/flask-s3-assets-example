@@ -9,6 +9,7 @@ app.config['S3_BUCKET_NAME'] = 'why_not_zoidberg'
 app.config['DEBUG'] = True
 app.config['USE_S3_DEBUG'] = True
 app.config['S3_CDN_DOMAIN'] = 'd14tm1m1qgdu96.cloudfront.net'
+app.config['FLASK_ASSETS_USE_S3'] = True
 
 s3 = FlaskS3(app)
 assets = Environment(app)
