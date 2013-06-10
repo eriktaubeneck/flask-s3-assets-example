@@ -14,7 +14,7 @@ app.config['FLASK_ASSETS_USE_S3'] = True
 s3 = FlaskS3(app)
 assets = Environment(app)
 
-js = Bundle('test.js', output='gen/packed.js')
+js = Bundle('test.js', output='gen/packed%(version)s.js')
 assets.register('js_all', js)
 
 
